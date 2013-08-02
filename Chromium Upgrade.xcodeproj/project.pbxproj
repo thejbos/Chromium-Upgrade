@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE9696217AC3A3B00921B3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE9696117AC3A3B00921B3F /* Cocoa.framework */; };
+		2EE9696C17AC3A3B00921B3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9696A17AC3A3B00921B3F /* InfoPlist.strings */; };
+		2EE9696E17AC3A3B00921B3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9696D17AC3A3B00921B3F /* main.m */; };
+		2EE9697217AC3A3B00921B3F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9697017AC3A3B00921B3F /* Credits.rtf */; };
+		2EE9697517AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9697417AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.m */; };
+		2EE9697817AC3A3B00921B3F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9697617AC3A3B00921B3F /* MainMenu.xib */; };
+		2EE9697A17AC3A3B00921B3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9697917AC3A3B00921B3F /* Images.xcassets */; };
+		2EE9698117AC3A3B00921B3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE9698017AC3A3B00921B3F /* XCTest.framework */; };
+		2EE9698217AC3A3B00921B3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE9696117AC3A3B00921B3F /* Cocoa.framework */; };
+		2EE9698A17AC3A3B00921B3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9698817AC3A3B00921B3F /* InfoPlist.strings */; };
+		2EE9698C17AC3A3B00921B3F /* Chromium_UpgradeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9698B17AC3A3B00921B3F /* Chromium_UpgradeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE9698317AC3A3B00921B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE9695617AC3A3B00921B3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE9695D17AC3A3B00921B3F;
+			remoteInfo = "Chromium Upgrade";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EE9695E17AC3A3B00921B3F /* Chromium Upgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chromium Upgrade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE9696117AC3A3B00921B3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2EE9696417AC3A3B00921B3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2EE9696517AC3A3B00921B3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2EE9696617AC3A3B00921B3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EE9696917AC3A3B00921B3F /* Chromium Upgrade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chromium Upgrade-Info.plist"; sourceTree = "<group>"; };
+		2EE9696B17AC3A3B00921B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EE9696D17AC3A3B00921B3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE9696F17AC3A3B00921B3F /* Chromium Upgrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chromium Upgrade-Prefix.pch"; sourceTree = "<group>"; };
+		2EE9697117AC3A3B00921B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2EE9697317AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromiumUpgradeAppDelegate.h; sourceTree = "<group>"; };
+		2EE9697417AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromiumUpgradeAppDelegate.m; sourceTree = "<group>"; };
+		2EE9697717AC3A3B00921B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EE9697917AC3A3B00921B3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2EE9697F17AC3A3B00921B3F /* Chromium UpgradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "Chromium UpgradeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE9698017AC3A3B00921B3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2EE9698717AC3A3B00921B3F /* Chromium UpgradeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chromium UpgradeTests-Info.plist"; sourceTree = "<group>"; };
+		2EE9698917AC3A3B00921B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EE9698B17AC3A3B00921B3F /* Chromium_UpgradeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chromium_UpgradeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE9695B17AC3A3B00921B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9696217AC3A3B00921B3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9697C17AC3A3B00921B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9698217AC3A3B00921B3F /* Cocoa.framework in Frameworks */,
+				2EE9698117AC3A3B00921B3F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE9695517AC3A3B00921B3F = {
+			isa = PBXGroup;
+			children = (
+				2EE9696717AC3A3B00921B3F /* Chromium Upgrade */,
+				2EE9698517AC3A3B00921B3F /* Chromium UpgradeTests */,
+				2EE9696017AC3A3B00921B3F /* Frameworks */,
+				2EE9695F17AC3A3B00921B3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE9695F17AC3A3B00921B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9695E17AC3A3B00921B3F /* Chromium Upgrade.app */,
+				2EE9697F17AC3A3B00921B3F /* Chromium UpgradeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE9696017AC3A3B00921B3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9696117AC3A3B00921B3F /* Cocoa.framework */,
+				2EE9698017AC3A3B00921B3F /* XCTest.framework */,
+				2EE9696317AC3A3B00921B3F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE9696317AC3A3B00921B3F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9696417AC3A3B00921B3F /* AppKit.framework */,
+				2EE9696517AC3A3B00921B3F /* CoreData.framework */,
+				2EE9696617AC3A3B00921B3F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2EE9696717AC3A3B00921B3F /* Chromium Upgrade */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9697317AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.h */,
+				2EE9697417AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.m */,
+				2EE9697617AC3A3B00921B3F /* MainMenu.xib */,
+				2EE9697917AC3A3B00921B3F /* Images.xcassets */,
+				2EE9696817AC3A3B00921B3F /* Supporting Files */,
+			);
+			path = "Chromium Upgrade";
+			sourceTree = "<group>";
+		};
+		2EE9696817AC3A3B00921B3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9696917AC3A3B00921B3F /* Chromium Upgrade-Info.plist */,
+				2EE9696A17AC3A3B00921B3F /* InfoPlist.strings */,
+				2EE9696D17AC3A3B00921B3F /* main.m */,
+				2EE9696F17AC3A3B00921B3F /* Chromium Upgrade-Prefix.pch */,
+				2EE9697017AC3A3B00921B3F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE9698517AC3A3B00921B3F /* Chromium UpgradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9698B17AC3A3B00921B3F /* Chromium_UpgradeTests.m */,
+				2EE9698617AC3A3B00921B3F /* Supporting Files */,
+			);
+			path = "Chromium UpgradeTests";
+			sourceTree = "<group>";
+		};
+		2EE9698617AC3A3B00921B3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9698717AC3A3B00921B3F /* Chromium UpgradeTests-Info.plist */,
+				2EE9698817AC3A3B00921B3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE9695D17AC3A3B00921B3F /* Chromium Upgrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE9698F17AC3A3B00921B3F /* Build configuration list for PBXNativeTarget "Chromium Upgrade" */;
+			buildPhases = (
+				2EE9695A17AC3A3B00921B3F /* Sources */,
+				2EE9695B17AC3A3B00921B3F /* Frameworks */,
+				2EE9695C17AC3A3B00921B3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chromium Upgrade";
+			productName = "Chromium Upgrade";
+			productReference = 2EE9695E17AC3A3B00921B3F /* Chromium Upgrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EE9697E17AC3A3B00921B3F /* Chromium UpgradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE9699217AC3A3B00921B3F /* Build configuration list for PBXNativeTarget "Chromium UpgradeTests" */;
+			buildPhases = (
+				2EE9697B17AC3A3B00921B3F /* Sources */,
+				2EE9697C17AC3A3B00921B3F /* Frameworks */,
+				2EE9697D17AC3A3B00921B3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE9698417AC3A3B00921B3F /* PBXTargetDependency */,
+			);
+			name = "Chromium UpgradeTests";
+			productName = "Chromium UpgradeTests";
+			productReference = 2EE9697F17AC3A3B00921B3F /* Chromium UpgradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE9695617AC3A3B00921B3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChromiumUpgrade;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Avelino Labs";
+				TargetAttributes = {
+					2EE9697E17AC3A3B00921B3F = {
+						TestTargetID = 2EE9695D17AC3A3B00921B3F;
+					};
+				};
+			};
+			buildConfigurationList = 2EE9695917AC3A3B00921B3F /* Build configuration list for PBXProject "Chromium Upgrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE9695517AC3A3B00921B3F;
+			productRefGroup = 2EE9695F17AC3A3B00921B3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE9695D17AC3A3B00921B3F /* Chromium Upgrade */,
+				2EE9697E17AC3A3B00921B3F /* Chromium UpgradeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE9695C17AC3A3B00921B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9696C17AC3A3B00921B3F /* InfoPlist.strings in Resources */,
+				2EE9697A17AC3A3B00921B3F /* Images.xcassets in Resources */,
+				2EE9697217AC3A3B00921B3F /* Credits.rtf in Resources */,
+				2EE9697817AC3A3B00921B3F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9697D17AC3A3B00921B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9698A17AC3A3B00921B3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE9695A17AC3A3B00921B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9696E17AC3A3B00921B3F /* main.m in Sources */,
+				2EE9697517AC3A3B00921B3F /* ChromiumUpgradeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9697B17AC3A3B00921B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE9698C17AC3A3B00921B3F /* Chromium_UpgradeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EE9698417AC3A3B00921B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE9695D17AC3A3B00921B3F /* Chromium Upgrade */;
+			targetProxy = 2EE9698317AC3A3B00921B3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EE9696A17AC3A3B00921B3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE9696B17AC3A3B00921B3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2EE9697017AC3A3B00921B3F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE9697117AC3A3B00921B3F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2EE9697617AC3A3B00921B3F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE9697717AC3A3B00921B3F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2EE9698817AC3A3B00921B3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE9698917AC3A3B00921B3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE9698D17AC3A3B00921B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2EE9698E17AC3A3B00921B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2EE9699017AC3A3B00921B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromium Upgrade/Chromium Upgrade-Prefix.pch";
+				INFOPLIST_FILE = "Chromium Upgrade/Chromium Upgrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EE9699117AC3A3B00921B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromium Upgrade/Chromium Upgrade-Prefix.pch";
+				INFOPLIST_FILE = "Chromium Upgrade/Chromium Upgrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2EE9699317AC3A3B00921B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromium Upgrade.app/Contents/MacOS/Chromium Upgrade";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromium Upgrade/Chromium Upgrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chromium UpgradeTests/Chromium UpgradeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2EE9699417AC3A3B00921B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chromium Upgrade.app/Contents/MacOS/Chromium Upgrade";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chromium Upgrade/Chromium Upgrade-Prefix.pch";
+				INFOPLIST_FILE = "Chromium UpgradeTests/Chromium UpgradeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE9695917AC3A3B00921B3F /* Build configuration list for PBXProject "Chromium Upgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE9698D17AC3A3B00921B3F /* Debug */,
+				2EE9698E17AC3A3B00921B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE9698F17AC3A3B00921B3F /* Build configuration list for PBXNativeTarget "Chromium Upgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE9699017AC3A3B00921B3F /* Debug */,
+				2EE9699117AC3A3B00921B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE9699217AC3A3B00921B3F /* Build configuration list for PBXNativeTarget "Chromium UpgradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE9699317AC3A3B00921B3F /* Debug */,
+				2EE9699417AC3A3B00921B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE9695617AC3A3B00921B3F /* Project object */;
+}
